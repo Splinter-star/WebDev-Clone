@@ -2,12 +2,53 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-nav {
+.navbar {
     background-color: white;
-    padding: 20px 35px;
+    padding: 15px 25px;
     text-align: center;
     display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+}
+.nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 200px;
+}
+.nav-right a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.nav-right input {
+       width: 85px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.search-box {
+    background-color: #f1f3f4;
+    
+}
+.search-box input {
+     background-color: #f1f3f4;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 25px;
+    width: 150px;
+}
+.sign-in {
+    padding: 10px 18px;
+    border-radius: 5px;
 }
 .hero-image{
     display: block;
@@ -16,9 +57,15 @@ nav {
     list-style: none;
     display: flex;
     gap: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 300px;
-    margin-bottom: -20px;
+    margin: 0px;
+    padding: 0px;
+}
+.links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-size: 16px;
+    /* text-align: start; */
 }
 .header {
     background-color: #1A73E8;
@@ -66,6 +113,9 @@ nav li a {
     gap: 30px;
     align-items:flex-start;
     margin-left: 30px;
+}
+.section2 h2 {
+    font-weight: 500;
 }
 .hero-image3 {
     margin-top: 60px;
